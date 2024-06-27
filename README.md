@@ -1,2 +1,2 @@
-# CKD
+# CKMImageNet
 a dataset for CKM
