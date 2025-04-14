@@ -36,4 +36,9 @@ Related works of our group are listed as follows:
  Z. Dai, D. Wu, Z. Dong and Y. Zeng, “Prototyping and experimental results for environment-aware millimeter wave beam alignment via channel knowledge map,” in IEEE Transactions on Vehicular Technology, vol. 73, no. 11, pp. 16805-16816, Nov. 2024
  
  C. Zhang, Z. Zhou, X. Xu, Y. Zeng, Z. Zhang and S. Jin, "Prototyping and Experimental Results for ISAC-based Channel Knowledge Map," in IEEE Transactions on Vehicular Technology, doi: 10.1109/TVT.2025.3545785.
+
+ S. Fu, Z. Wu, D. Wu, and Y. Zeng, “Generative CKM construction using partially observed data with diffusion model,” arXiv preprint arXiv:2412.14812, 2024.
  
+ Z. Dai, D. Wu, X. Xu, and Y. Zeng, “Generating CKM using others’ data: Cross-AP CKM inference with deep learning,” arXiv preprint arXiv:2411.17716, 2024.
+
+ S. Wang, X. Xu, and Y. Zeng, “Deep learning-based CKM construction with image super-resolution,” arXiv preprint arXiv:2411.08887, 2024.
