@@ -1,7 +1,77 @@
-# CKMImageNet[1]
-This is an image dataset, and the images contain location-based channel knowledge.   
-We dintinguish our dataset based on different scenarios. Inside each folder, there are detailed channel knowledge like channel gain, AOA, AOD, and the scenario view and our parameter configuration are also included.      
-Subfolders named with BS contains at most 81 images, for we divide the BS coverage area into 81 partial overlapping subareas, and images beyond deployment range are deleted.  
+# CKMImageNet
+
+[![GitHub License](https://img.shields.io/github/license/your-username/CKMImageNet)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/your-username/CKMImageNet)](https://github.com/your-username/CKMImageNet/stargazers)
+
+## 1. Dataset Overview（数据集概述）
+CKMImageNet is an image dataset that incorporates **location-based channel knowledge**. The dataset is categorized by different application scenarios, and each scenario folder contains detailed channel characteristic data and scenario-related information.
+
+> 中文说明（可选，方便中文用户）：  
+> CKMImageNet 是一个融合了**基于位置的信道知识**的图像数据集。该数据集按不同应用场景进行分类，每个场景文件夹内包含详细的信道特征数据及场景相关信息。
+
+## 2. Dataset Structure（数据集结构）
+### 2.1 Directory Hierarchy（目录层级）
+
+
+### 2.2 File Description（文件说明）
+| 文件/文件夹 | 说明 |
+|-------------|------|
+| `Scenario_X/` | 按不同场景划分的根文件夹（建议命名为具体场景，如Urban/Indoor/Hilly） |
+| `BS/` | 基站（Base Station）覆盖区域相关数据，最多包含81张图像（对应81个部分重叠的子区域） |
+| `area_XX.jpg` | 子区域XX的场景图像（超出部署范围的图像已被删除） |
+| `area_XX.json` | 对应子区域的信道知识数据（建议用结构化格式存储） |
+| `scenario_view.jpg` | 该场景的整体视图/拓扑图 |
+| `params.json` | 该场景的参数配置（如基站位置、频段、采样率等） |
+
+## 3. Key Channel Knowledge（核心信道知识）
+Each subarea file contains the following key channel parameters:
+- **Channel Gain** (信道增益)：信号在信道传输中的功率增益/损耗
+- **AOA (Angle of Arrival)** (到达角)：信号到达接收端的角度
+- **AOD (Angle of Departure)** (离开角)：信号从发射端离开的角度
+- Other parameters (其他参数)：可补充你数据集包含的其他信道特征
+
+## 4. Data Collection & Preprocessing（数据采集与预处理）
+（可选，补充数据集的采集方法、预处理流程，例如：）
+- The BS coverage area is divided into 81 partially overlapping subareas based on grid division.
+- Images and channel data beyond the effective deployment range are filtered out to ensure data validity.
+
+## 5. Citation（引用方式）
+If you use this dataset in your research, please cite it as follows:
+```bibtex
+@misc{CKMImageNet2026,
+  author = {Your Name},
+  title = {CKMImageNet: An Image Dataset with Location-based Channel Knowledge},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/your-username/CKMImageNet}}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This Dataset is developed by Southeast University and Purple Mountain Laboratories. For any further information, please contact Prof. Yong Zeng yong_zeng@seu.edu.cn; Mr. Zijian Wu wuzijian@seu.edu.cn
 
