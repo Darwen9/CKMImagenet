@@ -1,4 +1,10 @@
 # CKMImageNet
+[![GitHub License](https://img.shields.io/github/license/your-username/CKMImageNet?style=flat-square&color=blue)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/your-username/CKMImageNet?style=flat-square&color=yellow)](https://github.com/your-username/CKMImageNet/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/your-username/CKMImageNet?style=flat-square&color=green)](https://github.com/your-username/CKMImageNet/network/members)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/your-username/CKMImageNet?style=flat-square&color=orange)](https://github.com/your-username/CKMImageNet/commits/main)
+<!-- 可选：添加数据集大小徽章，需自己计算大小 -->
+[![Dataset Size](https://img.shields.io/badge/dataset%20size-XX%20GB-blueviolet?style=flat-square)](https://github.com/your-username/CKMImageNet)
 
 [![GitHub License](https://img.shields.io/github/license/your-username/CKMImageNet)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/your-username/CKMImageNet)](https://github.com/your-username/CKMImageNet/stargazers)
@@ -33,7 +39,9 @@ Each subarea file contains the following key channel parameters:
 ## 4. Data Collection & Preprocessing（数据采集与预处理）
 （可选，补充数据集的采集方法、预处理流程，例如：）
 - The BS coverage area is divided into 81 partially overlapping subareas based on grid division.
-- Images and channel data beyond the effective deployment range are filtered out to ensure data validity.
+- Images and channel data beyond the effective deployment range are filtered out to ensure data validity
+
+
 
 ## 5. Citation（引用方式）
 If you use this dataset in your research, please cite it as follows:
