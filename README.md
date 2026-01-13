@@ -48,15 +48,25 @@ Each subarea file contains the following key channel knowledge:
 
 ## 4. Citation（引用方式）
 If you use this dataset in your research, please cite it as follows:
+
 @ARTICLE{11184538,
+
   author={Wu, Zijian and Wu, Di and Fu, Shen and Qiu, Yuelong and Zeng, Yong},
+  
   journal={IEEE Transactions on Communications}, 
+  
   title={CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Toward Environment-Aware Communication and Sensing}, 
+  
   year={2025},
+  
   volume={73},
+  
   number={12},
+  
   pages={14430-14443},
+  
   keywords={Wireless communication;Wireless sensor networks;Sensors;Artificial intelligence;Robot sensing systems;6G mobile communication;Visualization;Data models;Millimeter wave communication;Resource management;Channel knowledge map (CKM);dataset;artificial intelligence (AI);ray-tracing;environment-aware communication and sensing},
+  
   doi={10.1109/TCOMM.2025.3615778}}
 
 ## 5. Contact
