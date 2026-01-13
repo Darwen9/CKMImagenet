@@ -48,12 +48,16 @@ Each subarea file contains the following key channel knowledge:
 
 ## 4. Citation（引用方式）
 If you use this dataset in your research, please cite it as follows:
-@article{wu2025ckmimagenet,
-  title={CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Towards Environment-Aware Communication and Sensing},
+@ARTICLE{11184538,
   author={Wu, Zijian and Wu, Di and Fu, Shen and Qiu, Yuelong and Zeng, Yong},
-  journal={arXiv preprint arXiv:2504.09849},
-  year={2025}
-}
+  journal={IEEE Transactions on Communications}, 
+  title={CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Toward Environment-Aware Communication and Sensing}, 
+  year={2025},
+  volume={73},
+  number={12},
+  pages={14430-14443},
+  keywords={Wireless communication;Wireless sensor networks;Sensors;Artificial intelligence;Robot sensing systems;6G mobile communication;Visualization;Data models;Millimeter wave communication;Resource management;Channel knowledge map (CKM);dataset;artificial intelligence (AI);ray-tracing;environment-aware communication and sensing},
+  doi={10.1109/TCOMM.2025.3615778}}
 
 ## 5. Contact
 This Dataset is developed by Southeast University and Purple Mountain Laboratories. For any further information, please contact Prof. Yong Zeng yong_zeng@seu.edu.cn; Mr. Zijian Wu wuzijian@seu.edu.cn
