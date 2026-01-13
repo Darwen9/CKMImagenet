@@ -8,14 +8,19 @@ CKMImageNet 是一个融合了**基于位置的信道知识**的图像数据集�
 ### 2.1 Directory Hierarchy（目录层级）
 
 CKMImageNet adopts a 5-layer tree architecture of [Root Directory → Scenario Type → Specific Location → Area → Base Station], where each layer corresponds to the actual directory/data classification of the dataset:
+
 Root: CKMImageNet
 The root directory of the dataset, which contains all scenarios, configuration files, and documentation.
+
 Level 1: Scenario Type
 Categorized by environment type (e.g., Urban, Rural, Indoor), corresponding to the first-level subfolders in the repository (e.g., Scenario_Urban/).
+
 Level 2: Specific Location
 Actual geographic/spatial locations under each scenario (e.g., London, Nanjing under the Urban scenario), corresponding to the second-level subfolders within the scenario folder (e.g., Scenario_Urban/Nanjing/).
+
 Level 3: Area
 Divided regions under a single location (e.g., Area1 to Area6), corresponding to the third-level subfolders within the location folder (e.g., Scenario_Urban/Nanjing/Area6/).
+
 Level 4: Base Station (BS)
 Base stations within a single area (e.g., BS1 to BS6), corresponding to the fourth-level subfolders within the area folder (e.g., Scenario_Urban/Nanjing/Area6/BS6/). This serves as the core data storage unit of the dataset.
 
