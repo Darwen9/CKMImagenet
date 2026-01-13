@@ -1,4 +1,4 @@
-# CKMImagenet
+# CKMImageNet
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Darwen9/CKMImagenet/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Darwen9/CKMImagenet?style=flat-square&color=61DAFB)](https://github.com/Darwen9/CKMImagenet/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Darwen9/CKMImagenet?style=flat-square&color=36CFC9)](https://github.com/Darwen9/CKMImagenet/network/members)
@@ -20,10 +20,10 @@ Level 1: Scenario Type
 Categorized by environment type (e.g., Urban, Rural, Indoor), corresponding to the first-level subfolders in the repository (e.g., Scenario_Urban/).
 
 Level 2: Specific Location
-Actual geographic/spatial locations under each scenario (e.g., London, Nanjing under the Urban scenario), corresponding to the second-level subfolders within the scenario folder (e.g., Scenario_Urban/Nanjing/).
+Actual geographic/spatial locations under each scenario (e.g., London, Nanjing under the Urban scenario), corresponding to the second-level subfolders within the scenario folder (e.g., Urban/Nanjing/).
 
 Level 3: Area
-Divided regions under a single location (e.g., Area1 to Area6), corresponding to the third-level subfolders within the location folder (e.g., Scenario_Urban/Nanjing/Area6/).
+Divided regions under a single location (e.g., Area1 to Area6), corresponding to the third-level subfolders within the location folder (e.g., Urban/Nanjing/Area6/).
 
 
 
@@ -31,11 +31,11 @@ CKMImageNet 采用**「根目录→场景类型→具体地点→区域」**的4
 1. **Root: CKMImageNet**  
    数据集根目录，包含所有场景、配置文件与说明文档。
 2. **Level 1: Scenario Type（场景类型）**  
-   按环境类型划分，如 `Urban`（城市）、`Rural`（乡村）、`Indoor`（室内）等，对应仓库中的一级子文件夹（如 `Scenario_Urban/`）。
+   按环境类型划分，如 `Urban`（城市）、`Rural`（乡村）、`Indoor`（室内）等，对应仓库中的一级子文件夹（如 `Urban/`）。
 3. **Level 2: Specific Location（具体地点）**  
-   每个场景下的实际地理/空间地点，如 `Urban` 场景下的 `London`、`Nanjing`，对应场景文件夹内的二级子文件夹（如 `Scenario_Urban/Nanjing/`）。
+   每个场景下的实际地理/空间地点，如 `Urban` 场景下的 `London`、`Nanjing`，对应场景文件夹内的二级子文件夹（如 `Urban/Nanjing/`）。
 4. **Level 3: Area（区域）**  
-   单个地点下的划分区域（如 `Area1`~`Area6`），对应地点文件夹内的三级子文件夹（如 `Scenario_Urban/Nanjing/NJ1/`）。
+   单个地点下的划分区域（如 `Area1`~`Area6`），对应地点文件夹内的三级子文件夹（如 `Urban/Nanjing/NJ1/`）。
 
 
 ## 3. Channel Knowledge Types
