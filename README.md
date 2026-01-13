@@ -6,7 +6,6 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Darwen9/CKMImagenet?style=flat-square&color=36CFC9)](https://github.com/Darwen9/CKMImagenet/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/Darwen9/CKMImagenet?style=flat-square&color=FF7D00)](https://github.com/Darwen9/CKMImagenet/commits/main)
 
-
 ## 1. Dataset Overview（数据集概述）
 CKMImageNet is an image dataset that incorporates **location-based channel knowledge**. The dataset is categorized by different application scenarios, and each scenario folder contains detailed channel characteristic data and scenario-related information.
 CKMImageNet 是一个融合了**基于位置的信道知识**的图像数据集。该数据集按不同应用场景进行分类，每个场景文件夹内包含详细的信道特征数据及场景相关信息。
@@ -58,16 +57,5 @@ If you use this dataset in your research, please cite it as follows:
   year={2025}
 }
 
-### 模块5：添加锚点导航（提升阅读体验，适配长 README）
-在 README 顶部（徽章下方）添加锚点导航，方便快速跳转：
-```markdown
-## Table of Contents
-- [1. Dataset Overview](#1-dataset-overview)
-- [2. Dataset Structure](#2-dataset-structure)
-- [3. Contributor Stats](#3-contributor-stats)
-- [4. Data Generation & Preprocessing](#4-data-generation--preprocessing)
-- [5. Citation](#5-citation)
-- [6. License](#6-license)
-- [7. Contact](#7-contact)
-
+## 5. Contact
 This Dataset is developed by Southeast University and Purple Mountain Laboratories. For any further information, please contact Prof. Yong Zeng yong_zeng@seu.edu.cn; Mr. Zijian Wu wuzijian@seu.edu.cn
