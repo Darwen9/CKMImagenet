@@ -1,15 +1,10 @@
 # CKMImageNet
 
-<!-- GitHub统计卡片 -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-
-<!-- 贡献 streak -->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark)
-
-<!-- 技能徽章 -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+# CKMImagenet
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Darwen9/CKMImagenet/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Darwen9/CKMImagenet?style=flat-square&color=61DAFB)](https://github.com/Darwen9/CKMImagenet/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Darwen9/CKMImagenet?style=flat-square&color=36CFC9)](https://github.com/Darwen9/CKMImagenet/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/Darwen9/CKMImagenet?style=flat-square&color=FF7D00)](https://github.com/Darwen9/CKMImagenet/commits/main)
 
 
 ## 1. Dataset Overview（数据集概述）
