@@ -7,7 +7,7 @@ CKMImageNet 是一个融合了**基于位置的信道知识**的图像数据集�
 ## 2. Dataset Structure（数据集结构）
 ### 2.1 Directory Hierarchy（目录层级）
 
-CKMImageNet adopts a 5-layer tree architecture of [Root Directory → Scenario Type → Specific Location → Area → Base Station], where each layer corresponds to the actual directory/data classification of the dataset:
+CKMImageNet adopts a 4-layer tree architecture of [Root Directory → Scenario Type → Specific Location → Area], where each layer corresponds to the actual directory/data classification of the dataset:
 
 Root: CKMImageNet
 The root directory of the dataset, which contains all scenarios, configuration files, and documentation.
@@ -21,10 +21,9 @@ Actual geographic/spatial locations under each scenario (e.g., London, Nanjing u
 Level 3: Area
 Divided regions under a single location (e.g., Area1 to Area6), corresponding to the third-level subfolders within the location folder (e.g., Scenario_Urban/Nanjing/Area6/).
 
-Level 4: Base Station (BS)
-Base stations within a single area (e.g., BS1 to BS6), corresponding to the fourth-level subfolders within the area folder (e.g., Scenario_Urban/Nanjing/Area6/BS6/). This serves as the core data storage unit of the dataset.
 
-CKMImageNet 采用**「根目录→场景类型→具体地点→区域→基站」**的5层树形架构，每层对应数据集的实际目录/数据分类：
+
+CKMImageNet 采用**「根目录→场景类型→具体地点→区域」**的4层树形架构，每层对应数据集的实际目录/数据分类：
 1. **Root: CKMImageNet**  
    数据集根目录，包含所有场景、配置文件与说明文档。
 2. **Level 1: Scenario Type（场景类型）**  
@@ -32,19 +31,8 @@ CKMImageNet 采用**「根目录→场景类型→具体地点→区域→基站
 3. **Level 2: Specific Location（具体地点）**  
    每个场景下的实际地理/空间地点，如 `Urban` 场景下的 `London`、`Nanjing`，对应场景文件夹内的二级子文件夹（如 `Scenario_Urban/Nanjing/`）。
 4. **Level 3: Area（区域）**  
-   单个地点下的划分区域（如 `Area1`~`Area6`），对应地点文件夹内的三级子文件夹（如 `Scenario_Urban/Nanjing/Area6/`）。
-5. **Level 4: Base Station (BS)（基站）**  
-   单个区域内的基站（如 `BS1`~`BS6`），对应区域文件夹内的四级子文件夹（如 `Scenario_Urban/Nanjing/Area6/BS6/`），是数据集的核心数据存储单元
+   单个地点下的划分区域（如 `Area1`~`Area6`），对应地点文件夹内的三级子文件夹（如 `Scenario_Urban/Nanjing/NJ1/`）。
 
-### 2.2 File Description（文件说明）
-| 文件/文件夹 | 说明 |
-|-------------|------|
-| `Scenario_X/` | 按不同场景划分的根文件夹（建议命名为具体场景，如Urban/Indoor/Hilly） |
-| `BS/` | 基站（Base Station）覆盖区域相关数据，覆盖范围为400m*100m |
-| `area_XX.jpg` | 子区域XX的场景图像（超出部署范围的图像已被删除） |
-| `area_XX.json` | 对应子区域的信道知识数据（建议用结构化格式存储） |
-| `scenario_view.jpg` | 该场景的整体视图/拓扑图 |
-| `params.json` | 该场景的参数配置（如基站位置、频段、采样率等） |
 
 ## 3. Channel Knowledge Types
 Each subarea file contains the following key channel knowledge:
