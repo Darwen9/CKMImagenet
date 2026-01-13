@@ -58,5 +58,16 @@ If you use this dataset in your research, please cite it as follows:
   year={2025}
 }
 
-This Dataset is developed by Southeast University and Purple Mountain Laboratories. For any further information, please contact Prof. Yong Zeng yong_zeng@seu.edu.cn; Mr. Zijian Wu wuzijian@seu.edu.cn
+### 模块5：添加锚点导航（提升阅读体验，适配长 README）
+在 README 顶部（徽章下方）添加锚点导航，方便快速跳转：
+```markdown
+## Table of Contents
+- [1. Dataset Overview](#1-dataset-overview)
+- [2. Dataset Structure](#2-dataset-structure)
+- [3. Contributor Stats](#3-contributor-stats)
+- [4. Data Generation & Preprocessing](#4-data-generation--preprocessing)
+- [5. Citation](#5-citation)
+- [6. License](#6-license)
+- [7. Contact](#7-contact)
 
+This Dataset is developed by Southeast University and Purple Mountain Laboratories. For any further information, please contact Prof. Yong Zeng yong_zeng@seu.edu.cn; Mr. Zijian Wu wuzijian@seu.edu.cn
