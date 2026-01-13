@@ -1,5 +1,3 @@
-# CKMImageNet
-
 # CKMImagenet
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Darwen9/CKMImagenet/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Darwen9/CKMImagenet?style=flat-square&color=61DAFB)](https://github.com/Darwen9/CKMImagenet/stargazers)
