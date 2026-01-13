@@ -1,13 +1,4 @@
 # CKMImageNet
-[![GitHub License](https://img.shields.io/github/license/your-username/CKMImageNet?style=flat-square&color=blue)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/CKMImageNet?style=flat-square&color=yellow)](https://github.com/your-username/CKMImageNet/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/your-username/CKMImageNet?style=flat-square&color=green)](https://github.com/your-username/CKMImageNet/network/members)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/your-username/CKMImageNet?style=flat-square&color=orange)](https://github.com/your-username/CKMImageNet/commits/main)
-<!-- 可选：添加数据集大小徽章，需自己计算大小 -->
-[![Dataset Size](https://img.shields.io/badge/dataset%20size-XX%20GB-blueviolet?style=flat-square)](https://github.com/your-username/CKMImageNet)
-
-[![GitHub License](https://img.shields.io/github/license/your-username/CKMImageNet)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/CKMImageNet)](https://github.com/your-username/CKMImageNet/stargazers)
 
 ## 1. Dataset Overview（数据集概述）
 CKMImageNet is an image dataset that incorporates **location-based channel knowledge**. The dataset is categorized by different application scenarios, and each scenario folder contains detailed channel characteristic data and scenario-related information.
@@ -17,6 +8,18 @@ CKMImageNet is an image dataset that incorporates **location-based channel knowl
 
 ## 2. Dataset Structure（数据集结构）
 ### 2.1 Directory Hierarchy（目录层级）
+CKMImageNet 采用**「根目录→场景类型→具体地点→区域→基站」**的5层树形架构，每层对应数据集的实际目录/数据分类：
+1. **Root: CKMImageNet**  
+   数据集根目录，包含所有场景、配置文件与说明文档。
+2. **Level 1: Scenario Type（场景类型）**  
+   按环境类型划分，如 `Urban`（城市）、`Rural`（乡村）、`Indoor`（室内）等，对应仓库中的一级子文件夹（如 `Scenario_Urban/`）。
+3. **Level 2: Specific Location（具体地点）**  
+   每个场景下的实际地理/空间地点，如 `Urban` 场景下的 `London`、`Nanjing`，对应场景文件夹内的二级子文件夹（如 `Scenario_Urban/Nanjing/`）。
+4. **Level 3: Area（区域）**  
+   单个地点下的划分区域（如 `Area1`~`Area6`），对应地点文件夹内的三级子文件夹（如 `Scenario_Urban/Nanjing/Area6/`）。
+5. **Level 4: Base Station (BS)（基站）**  
+   单个区域内的基站（如 `BS1`~`BS6`），对应区域文件夹内的四级子文件夹（如 `Scenario_Urban/Nanjing/Area6/BS6/`），是数据集的核心数据存储单元。
+
 
 
 ### 2.2 File Description（文件说明）
