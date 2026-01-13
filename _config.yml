@@ -1,0 +1,18 @@
+# 站点基础信息（会在网页中对应展示，提升专业性）
+title: CKMImageNet Dataset  # 网页标题（浏览器标签+网页页眉）
+description: A dataset for communication and sensing  # 网页描述（搜索引擎优化+网页副标题）
+author: zyktz  # 作者/仓库所有者
+lang: zh-CN  # 网页语言（中文）
+
+# 核心：指定 Jekyll 主题（GitHub 内置主题，无需额外安装，稳定无兼容问题）
+theme: jekyll-theme-cayman  # 推荐：宽屏极简主题，适合展示数据集/开源项目，视觉干净大气
+
+# 可选：其他 GitHub 内置官方主题（按需替换上面的 theme 值即可）
+# theme: minima  # 极简紧凑主题，适合内容较多的文档/数据集
+# theme: jekyll-theme-midnight  # 深色炫酷主题，代码/样本展示更突出
+# theme: jekyll-theme-leap-day  # 清新浅色调主题，适合偏向学术的数据集
+# theme: jekyll-theme-merlot  # 暖色调主题，视觉柔和
+
+# 额外配置：关闭不必要的功能，保持网页简洁
+show_downloads: true  # 显示下载按钮（关联仓库 Releases）
+permalink: /:title/  # 网页链接格式（简洁化）
